@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+    
+    }
+
+
+/*this is a header*/
+
+.header {
+ background-color: orangered;
+    color: white;
+    padding: 15px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.24);
+  
+}
+
+  
+ body{
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }   
+
+/*for the top list*/
+.design ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+/*for the paragraph*/
+
+
+.design li{
+    background-color: greenyellow;
+    padding: 8px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.24);
+    margin-bottom:7px;
+    color: rgb(43, 41, 40);
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.design li :hover{
+    background-color: darkolivegreen;
+    color: white;
+}
+/*customer review section*/
+.aside{
+    background-color: rgb(233, 68, 7);
+    text-align: center;
+    color: rgb(238, 225, 225);
+    padding: 15px;
+}
+
+/*footer stying, scroll down for footer responsiveness*/
+.footer{
+  border: 3px solid black;
+    color: orangered;
+    text-align:center;
+    padding: 15px;
+
+}
+.remove ul{
+    list-style-type: none;
+}
+.remove li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+    
+/*for web page division*/
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    padding:15px;
+    float: left;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+/*for image gallery*/
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    margin: 20px;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+   
+}
+
+/*for gallery responsiveness accross devices*/
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*This s a footer*/
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+} 
+
+
+
+
+.background{
+    background-image: url(img/banner.jpg);
+}
+.highlight {
+    color:lightseagreen;
+    font-family: fantasy;
+    font-size: medium;
+}
+/* sign up on about pages*/
+table {
+    border:1px solid grey;
+}
+
+table {
+    width:70%;
+}
+
+th {
+    height:50px;
+}
+
+th, td {
+    
+    padding: 10px;
+    text-align: center;
+}
+
+tr:hover {background-color: rgba(80, 240, 16, 0.333);}
+
+tr:nth-child(even)  {background-color: rgba(247, 241, 241, 0.925)}
+
+th {
+    background-color: rgb(79, 243, 153);
+    color:white;
+}
+
+.callout {
+    text-align: center;
+
+}
